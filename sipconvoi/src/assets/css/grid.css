@@ -1,0 +1,12 @@
+.row{
+    margin: -4px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+}
+
+.col-l-6{
+    width: 50%;
+    margin: 0 4px;
+}
