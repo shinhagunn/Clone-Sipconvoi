@@ -5,208 +5,16 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="product__item col-l-3">
+                    <div class="product__item col-l-3" v-for="(product, index) in dataProducts" v-bind:key="product.index">
                         <figure class="product__img">
-                            <img src="../assets/img/product3.jpg" alt="">
+                            <img src="../assets/img/product5.jpg">
                             <button class="product__buynow">
                                 XEM NGAY
                             </button>
                         </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product4.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product1.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product2.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product3.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product4.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product2.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product1.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product3.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product4.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product4.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product2.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product3.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product1.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product2.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product2.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
-                    </div>
-
-                    <div class="product__item col-l-3">
-                        <figure class="product__img">
-                            <img src="../assets/img/product3.jpg" alt="">
-                            <button class="product__buynow">
-                                XEM NGAY
-                            </button>
-                        </figure>  
-                        <a class="product__title">Quần sịp chúa tể đại bàng</a>
-                        <p class="product__price">150.000đ</p>
-                        <p class="product__key">S-A2</p>
+                        <a class="product__title">{{ product.name }}</a>
+                        <p class="product__price">{{ product.price }}đ</p>
+                        <p class="product__key">{{ product.key }}</p>
                     </div>
                 </div>
             </div>
@@ -219,8 +27,10 @@ export default {
     name: 'compSipnam',
     data() {
         return{
-
         }
+    },
+    props: {
+        dataProducts: Array
     }
 }
 </script>
