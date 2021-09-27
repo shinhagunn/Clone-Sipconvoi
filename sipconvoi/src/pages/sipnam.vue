@@ -1,26 +1,38 @@
 <template>
-  <a
-    :href="'/san-pham/' + product.key"
-    class="product__item col-l-3"
-  >
-    <figure class="product__img">
-      <img src="../assets/img/product5.jpg" />
-      <button class="product__buynow">XEM NGAY</button>
-    </figure>
-    <a class="product__title">{{ product.name }}</a>
-    <p class="product__price">{{ product.price }}đ</p>
-    <p class="product__key">{{ product.key }}</p>
-  </a>
+  <div class="sipnam">
+    <div class="products__list">
+      <h2 class="products__list-title">Quần lót nam</h2>
+
+      <div class="container">
+        <div class="row">
+          <div
+            class="product__item col-l-3"
+            v-for="product in dataProducts"
+            v-bind:key="product.index"
+          >
+            <figure class="product__img">
+              <img src="../assets/img/product5.jpg" />
+              <button class="product__buynow">XEM NGAY</button>
+            </figure>
+            <a class="product__title">{{ product.name }}</a>
+            <p class="product__price">{{ product.price }}đ</p>
+            <p class="product__key">{{ product.key }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
+import data from "../data";
+
 export default {
   name: "compSipnam",
   data() {
-    return {};
-  },
-  props: {
-    product: Object,
+    return {
+      dataProducts: data
+    };
   },
 };
 </script>
